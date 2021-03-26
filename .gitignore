@@ -1,3 +1,5 @@
 env
 .vscode
 snippet.py
+*/**/__pycache__
+sample/*

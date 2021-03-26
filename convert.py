@@ -10,6 +10,7 @@ def get_args():
     args.add_argument('--to-tflite', default=False, action='store_true')
     args.add_argument('--to-savedmodel', default=False, action='store_true')
     args.add_argument('--to-coreml', default=False, action='store_true')
+    args.add_argument('--to-tftrt', default=False, action='store_true')
     args.add_argument('--all', default=False, action='store_true')
     args.add_argument('--fp16', default=False, action='store_true')
 
